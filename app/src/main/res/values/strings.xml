@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MAD Experiment 4</string>
+    <string name="welcome_text">Welcome to the MAD Class!</string>
+    <string name="homebuttontext">Click here to know more about the subject!</string>
+</resources>
