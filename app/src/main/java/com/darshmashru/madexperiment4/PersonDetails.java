@@ -8,14 +8,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class PersonDetails extends AppCompatActivity {
-    private ListView listview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_person_details);
 
-        listview = findViewById(R.id.listview);
+        ListView listview = findViewById(R.id.listview);
         String[] ListViewDetails = {
                 "Main Menu",
                 "+91 1234567890",
